@@ -20,21 +20,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/AndroidLogoCardView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageView
+                android:id="@+id/AndroidLogoImageView"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="32dp"
-                app:cardCornerRadius="64dp">
-
-                <ImageView
-                    android:id="@+id/AndroidLogoImageView"
-                    android:layout_width="128dp"
-                    android:layout_height="128dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@android:drawable/sym_def_app_icon" />
-            </androidx.cardview.widget.CardView>
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
 
             <TextView
                 android:id="@+id/UserNameTextView"
